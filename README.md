@@ -1,9 +1,7 @@
 # MOD-001 · Seguridad criptográfica
 
 Módulo independiente de la colección **Modulos** para contraseñas, datos
-recuperables y archivos. Esta segunda iteración es **1.0.0rc2**, candidata a v1.0
-estable, pendiente de revisión posterior. La versión del formato cifrado es **2**;
-no debe confundirse con la versión del paquete. No se reconstruyó el módulo.
+recuperables y archivos. 
 
 ## Requisitos e instalación
 

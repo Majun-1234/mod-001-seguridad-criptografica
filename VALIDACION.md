@@ -1,6 +1,6 @@
 # Validación de la segunda iteración
 
-Fecha: 30 de septiembre de 2026. Versión candidata: 1.0.0rc2.
+Fecha: 30 de septiembre de 2026. Versión candidata: 1.0.0.
 No se declara estable hasta la revisión posterior.
 
 ## Cambios
@@ -43,8 +43,8 @@ La futura aprobación de estabilidad requiere la revisión independiente solicit
   Resultado exacto: **107 passed in 1.06s**.
 - Ejemplo: **Contraseñas, datos y archivos v2: demostración completada.**
 - Construcción con `python -m build --no-isolation`: sdist y wheel generados
-  correctamente para 1.0.0rc2.
-- Instalación local del wheel 1.0.0rc2: correcta. Prueba con Python `-I`, sin
+  correctamente para 1.0.0.
+- Instalación local del wheel 1.0.0: correcta. Prueba con Python `-I`, sin
   importar el código del directorio de trabajo: rotación y archivos correctos.
 - `pip check`: **No broken requirements found.**
 - Distribuciones inspeccionadas: sin .venv, cachés, build, dist ni .env real;
@@ -56,4 +56,4 @@ La futura aprobación de estabilidad requiere la revisión independiente solicit
 Entorno de validación: Windows, Python 3.12; argon2-cffi 25.1.0, PyNaCl 1.6.2,
 cryptography 48.0.1, pytest 9.1.1. No se ejecutó esta suite en Linux/macOS ni en
 otras versiones de Python. Los artefactos anteriores del desarrollador se conservan
-en dist/ y se distinguen por la versión; usa los que terminan en 1.0.0rc2.
+en dist/ y se distinguen por la versión; usa los que terminan en 1.0.0.
