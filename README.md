@@ -217,8 +217,8 @@ ErrorSeguridad. No registres contraseñas, claves ni entradas sensibles.
 
 No hay rotación automática, recifrado masivo ni proveedores cloud. El cifrado no
 oculta tamaños ni impide replay de datos válidos antiguos; el consumidor debe
-manejar ese estado. Conserva respaldos seguros de claves y datos. Queda pendiente
-una revisión independiente de los cambios antes de declarar la versión estable.
+manejar ese estado. Conserva respaldos seguros de claves y datos. Módulo independiente de la colección Modulos para contraseñas, datos recuperables y archivos. Esta versión corresponde a 1.0.0 estable. La versión del formato cifrado es 2; no debe confundirse con la versión del paquete.
+mod_001_seguridad_criptografica-1.0.0-py3-none-any.whl
 
 ## Pruebas, ejemplo e integración
 
@@ -238,7 +238,7 @@ Para instalar en otro proyecto:
 ```powershell
 python -m pip install "C:\Users\matia\OneDrive\Escritorio\Nueva-Carpeta\Proyectos\Modulos\mod-001-seguridad-criptografica"
 # Alternativa: instalar el wheel concreto generado en dist/.
-python -m pip install "ruta\mod_001_seguridad_criptografica-1.0.0rc2-py3-none-any.whl"
+python -m pip install "ruta\mod_001_seguridad_criptografica-1.0.0-py3-none-any.whl"
 ```
 
 Importa `from seguridad import Seguridad`; evita otro paquete con el mismo nombre
