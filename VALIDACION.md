@@ -1,7 +1,6 @@
 # Validación de la segunda iteración
 
-Fecha: 30 de septiembre de 2026. Versión candidata: 1.0.0.
-No se declara estable hasta la revisión posterior.
+Fecha: 30 de septiembre de 2026. Versión: 1.0.0 estable.
 
 ## Cambios
 
@@ -34,7 +33,7 @@ Sin recifrado masivo, rotación automática ni proveedores cloud. La aplicación
 debe conservar maestras históricas, evitar reutilizar IDs y mantener respaldos.
 El tamaño configurado no es un límite total de RAM. Se mantienen las limitaciones
 de enlaces duros, temporales en texto claro y ausencia de borrado seguro de memoria.
-La futura aprobación de estabilidad requiere la revisión independiente solicitada.
+La versión 1.0.0 fue aprobada tras la revisión independiente posterior de la implementación.
 
 ## Resultados ejecutados
 
